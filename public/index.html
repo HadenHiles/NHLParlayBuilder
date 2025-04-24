@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NHL Parlay Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>🏒 NHL Smart Parlay Builder</h1>
+        <div class="input-group">
+            <label>SOG Bets:</label>
+            <input type="number" id="sogCount" value="3" min="1">
+            <label>Points Bets:</label>
+            <input type="number" id="pointsCount" value="2" min="1">
+            <button onclick="buildParlay()">Build Parlay</button>
+        </div>
+        <div id="parlayResults"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

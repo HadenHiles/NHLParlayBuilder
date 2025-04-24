@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0b1e2d;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  background: #142b3f;
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 50px;
+  margin: 0 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #1db954;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#parlayResults {
+  margin-top: 20px;
+  text-align: left;
+}/*# sourceMappingURL=style.css.map */

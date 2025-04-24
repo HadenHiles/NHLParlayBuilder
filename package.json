@@ -1,0 +1,25 @@
+{
+  "name": "nhlparlaybuilder",
+  "version": "1.0.0",
+  "description": "A simple node.js scraper that combines stats from various public sites, and spits out an optimized parlay bet for todays nhl games.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HadenHiles/NHLParlayBuilder.git"
+  },
+  "author": "Haden Hiles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HadenHiles/NHLParlayBuilder/issues"
+  },
+  "homepage": "https://github.com/HadenHiles/NHLParlayBuilder#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^24.7.2"
+  }
+}
